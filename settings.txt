@@ -1,0 +1,26 @@
+global settings:
+THREADS 12
+TESTS 10
+SEEDMAX 100000
+AURAFILTER SHEN_SHI_XIN_FENG
+DEFENDER 2
+VERBOSE 1
+
+diedai settings:
+turns=10
+recording_bpc=ON
+recording_pools=ON
+
+group_1 settings:
+guanghuan=130
+level=400 4 8
+WISH 2 2 2 2 2 0 0
+level_GEAR=200 110 110 110 110 0
+pool_size=10
+
+group_2 settings:
+guanghuan=150
+level=430 4 8
+WISH 3 3 3 3 3 0 0
+level_GEAR=230 110 110 110 110 0
+pool_size=10
