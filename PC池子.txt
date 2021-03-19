@@ -1,0 +1,24 @@
+turn=0
+now_group=1
+now_PC=
+
+group_1:
+LIN_sample_1 400 4 8
+WISH 2 2 2 2 2 0 0
+1 1 1 1 1 1
+NONE
+NONE
+NONE
+NONE
+0
+
+group_2:
+LIN_sample_2 400 4 8
+WISH 2 2 2 2 2 0 0
+1 1 1 1 1 1
+NONE
+NONE
+NONE
+NONE
+0
+
