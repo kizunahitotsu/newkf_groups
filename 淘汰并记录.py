@@ -89,7 +89,9 @@ for line in record_bpcs_lines:
 #排序
 rank_rates.sort(reverse=True)
 for rate in rank_rates:
-    rank_PCs.append(PCs[rates.index(rate)])
+    rate_index=rates.index(rate)
+    rank_PCs.append(PCs[rate_index])
+    rates[rate_index]=-1 #选中过的rate不会再被选中，防止出现多个PC胜率恰好相等而返回其中1个的情况
 #淘汰，取前pool_size个
 taotai_PCs=rank_PCs[:pool_size]
 
